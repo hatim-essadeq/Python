@@ -1,0 +1,7 @@
+first_name:hatim
+last_name:ess
+age:24
+email:hatim@email.com
+address:fes
+weight:90Kg
+height:183cm
