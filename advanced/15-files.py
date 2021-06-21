@@ -56,21 +56,19 @@ print(my_file.readlines()[1])
 for i in my_file.readlines():
     print(i)
 
-
 # close file
 my_file.close()
-
 
 #################################################### writing files ####################################################
 
 # open the file in append mode
-inputs_file = open("../resources/inputs.txt","a")
+inputs_file = open("../resources/inputs.txt", "a")
 
 # add data at the end of the file
 inputs_file.write("\naddress:fes")
 
 # add list of lines at the end of the file
-inputs_file.writelines(["\nweight:90Kg","\nheight:183cm"])
+inputs_file.writelines(["\nweight:90Kg", "\nheight:183cm"])
 
 # close file
 inputs_file.close()
